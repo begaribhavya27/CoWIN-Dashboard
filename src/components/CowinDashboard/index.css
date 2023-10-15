@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 22%;
+}
+.logo-head {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  width: 50%;
+  margin: 20px;
+}
+.failure {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
